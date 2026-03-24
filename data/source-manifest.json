@@ -1,4 +1,7 @@
-
+{
+  "queries": [
+    "Tamil Nadu 2026 assembly election opinion poll",
+    "Tamil Nadu 2026 election survey DMK AIADMK TVK",
     "Tamil Nadu 2026 poll BJP alliance AIADMK TVK",
     "Tamil Nadu 2026 Vote Vibe survey",
     "Tamil Nadu 2026 Parawheel survey",
@@ -12,26 +15,18 @@
     "Tamil Nadu 2026 Puthiya Thalaimurai survey",
     "Tamil Nadu 2026 Polimer News survey",
     "Tamil Nadu 2026 Sathiyam TV survey",
-    "Tamil Nadu 2026 News18 Tamil Nadu survey",
     "Tamil Nadu 2026 Sun News survey",
     "Tamil Nadu 2026 Raj News survey",
-    "Tamil Nadu 2026 IBC Tamil survey"
     "Tamil Nadu 2026 IBC Tamil survey",
-    "தமிழ்நாடு 2026 கருத்து கணிப்பு",
-    "தமிழ்நாடு 2026 சர்வே தேர்தல்",
-    "தமிழ்நாடு 2026 லயோலா கருத்து கணிப்பு",
-    "தமிழ்நாடு 2026 நியூஸ்18 கருத்து கணிப்பு"
+    "à®¤à®®à®¿à®´à¯à®¨à®¾à®Ÿà¯ 2026 à®•à®°à¯à®¤à¯à®¤à¯ à®•à®£à®¿à®ªà¯à®ªà¯",
+    "à®¤à®®à®¿à®´à¯à®¨à®¾à®Ÿà¯ 2026 à®šà®°à¯à®µà¯‡ à®¤à¯‡à®°à¯à®¤à®²à¯",
+    "à®¤à®®à®¿à®´à¯à®¨à®¾à®Ÿà¯ 2026 à®²à®¯à¯‹à®²à®¾ à®•à®°à¯à®¤à¯à®¤à¯ à®•à®£à®¿à®ªà¯à®ªà¯",
+    "à®¤à®®à®¿à®´à¯à®¨à®¾à®Ÿà¯ 2026 à®¨à®¿à®¯à¯‚à®¸à¯18 à®•à®°à¯à®¤à¯à®¤à¯ à®•à®£à®¿à®ªà¯à®ªà¯"
   ],
   "allowedDomains": [
     "dtnext.in",
     "indiatoday.in",
     "ndtv.com",
-    "moneycontrol.com",
-    "timesofindia.indiatimes.com",
-    "thehindu.com",
-    "thanthitv.com",
-    "news7tamil.live",
-    "puthiyathalaimurai.com",
     "moneycontrol.com",
     "cnnnews18.com",
     "timesofindia.indiatimes.com",
@@ -52,6 +47,60 @@
     "sathiyam.tv",
     "sunnewslive.in",
     "sunnews.in",
+    "rajnewstamil.com",
+    "ibctamil.com",
+    "newstamil.tv",
+    "malaimurasu.com"
+  ],
+  "pollsters": [
+    {
+      "name": "Vote Vibe",
+      "aliases": ["Vote Vibe", "VoteVibe", "State Vibe"]
+    },
+    {
+      "name": "Parawheel Survey",
+      "aliases": ["Parawheel", "Para Wheel"]
+    },
+    {
+      "name": "C-Voter",
+      "aliases": ["C-Voter", "CVoter", "C Voter"]
+    },
+    {
+      "name": "Axis My India",
+      "aliases": ["Axis My India"]
+    },
+    {
+      "name": "IANS-Matrize",
+      "aliases": ["IANS-Matrize", "Matrize", "ANS", "IANS"]
+    },
+    {
+      "name": "TVK Internal Survey",
+      "aliases": ["TVK internal survey", "TVK survey"]
+    },
+    {
+      "name": "Private Channel Survey",
+      "aliases": ["private television channel survey", "latest survey"]
+    },
+    {
+      "name": "Thanthi TV Survey",
+      "aliases": ["Thanthi TV survey", "Thanthi TV opinion poll", "Thanthi survey"]
+    },
+    {
+      "name": "News7 Tamil Survey",
+      "aliases": ["News7 Tamil survey", "News 7 Tamil survey", "News7 survey"]
+    },
+    {
+      "name": "Puthiya Thalaimurai Survey",
+      "aliases": ["Puthiya Thalaimurai survey", "Puthiyathalaimurai survey", "PT survey"]
+    },
+    {
+      "name": "Polimer Survey",
+      "aliases": ["Polimer survey", "Polimer News survey"]
+    },
+    {
+      "name": "Sathiyam Survey",
+      "aliases": ["Sathiyam survey", "Sathiyam TV survey"]
+    },
     {
       "name": "IBC Tamil Survey",
       "aliases": ["IBC Tamil survey", "IBC survey"]
@@ -63,6 +112,43 @@
     {
       "name": "News18 Survey",
       "aliases": ["CNN-News18", "CNN News18", "News18 Tamil Nadu", "News18 survey"]
+    }
+  ],
+  "xSources": [
+    {
+      "name": "CNN-News18",
+      "handle": "CNNnews18",
+      "category": "national"
+    },
+    {
+      "name": "News18 Tamil Nadu",
+      "handle": "News18TamilNadu",
+      "category": "local"
+    },
+    {
+      "name": "Thanthi TV",
+      "handle": "ThanthiTV",
+      "category": "local"
+    },
+    {
+      "name": "News7 Tamil",
+      "handle": "news7tamil",
+      "category": "local"
+    },
+    {
+      "name": "Polimer News",
+      "handle": "polimernews",
+      "category": "local"
+    },
+    {
+      "name": "IBC Tamil",
+      "handle": "ibctamilmedia",
+      "category": "local"
+    },
+    {
+      "name": "Sathiyam TV",
+      "handle": "sathiyamnews",
+      "category": "local"
     }
   ]
 }
