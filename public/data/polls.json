@@ -1,22 +1,24 @@
 {
   "metadata": {
     "tracker": "Tamil Nadu 2026 Assembly Poll Tracker",
-    "generatedAt": "2026-03-23T18:44:16.165Z",
-    "lastAttemptAt": "2026-03-23T18:44:16.165Z",
-    "lastSuccessfulUpdate": "2026-03-23T13:12:21.598Z",
-    "usingCachedData": true,
+    "generatedAt": "2026-03-24T06:52:29.838Z",
+    "lastAttemptAt": "2026-03-24T06:52:29.838Z",
+    "lastSuccessfulUpdate": "2026-03-24T06:52:29.838Z",
+    "usingCachedData": false,
     "hadErrors": true,
-    "fetchMode": "cached",
-    "warning": "Live fetching returned no fresh polls during the last run, so the tracker is showing the last cached snapshot plus verified seed records.",
+    "fetchMode": "live+manual",
+    "warning": "Some source checks failed during the last run. Cached entries remain available and validated rows stay visible.",
     "totals": {
-      "polls": 6,
-      "sources": 5,
-      "validatedLinks": 6,
+      "polls": 8,
+      "sources": 6,
+      "validatedLinks": 8,
       "manualSeeds": 4,
-      "autoDiscovered": 0
+      "autoDiscovered": 2,
+      "xDiscovered": 0
     },
     "sourcesChecked": 27,
-    "articlesScanned": 0,
+    "articlesScanned": 35,
+    "postsScanned": 19,
     "activeQueries": [
       "Tamil Nadu 2026 assembly election opinion poll",
       "Tamil Nadu 2026 election survey DMK AIADMK TVK",
@@ -33,7 +35,6 @@
       "Tamil Nadu 2026 Puthiya Thalaimurai survey",
       "Tamil Nadu 2026 Polimer News survey",
       "Tamil Nadu 2026 Sathiyam TV survey",
-      "Tamil Nadu 2026 News18 Tamil Nadu survey",
       "Tamil Nadu 2026 Sun News survey",
       "Tamil Nadu 2026 Raj News survey",
       "Tamil Nadu 2026 IBC Tamil survey",
@@ -44,238 +45,55 @@
     ],
     "sourceFailures": [
       {
-        "query": "Tamil Nadu 2026 assembly election opinion poll",
-        "feed": "google-news",
-        "message": "fetch failed"
-      },
-      {
-        "query": "Tamil Nadu 2026 assembly election opinion poll",
-        "feed": "bing-news",
-        "message": "fetch failed"
-      },
-      {
-        "query": "Tamil Nadu 2026 election survey DMK AIADMK TVK",
-        "feed": "google-news",
-        "message": "fetch failed"
-      },
-      {
-        "query": "Tamil Nadu 2026 election survey DMK AIADMK TVK",
-        "feed": "bing-news",
-        "message": "fetch failed"
-      },
-      {
-        "query": "Tamil Nadu 2026 poll BJP alliance AIADMK TVK",
-        "feed": "google-news",
-        "message": "fetch failed"
-      },
-      {
-        "query": "Tamil Nadu 2026 poll BJP alliance AIADMK TVK",
-        "feed": "bing-news",
-        "message": "fetch failed"
-      },
-      {
-        "query": "Tamil Nadu 2026 Vote Vibe survey",
-        "feed": "google-news",
-        "message": "fetch failed"
-      },
-      {
-        "query": "Tamil Nadu 2026 Vote Vibe survey",
-        "feed": "bing-news",
-        "message": "fetch failed"
-      },
-      {
-        "query": "Tamil Nadu 2026 Parawheel survey",
-        "feed": "google-news",
-        "message": "fetch failed"
-      },
-      {
-        "query": "Tamil Nadu 2026 Parawheel survey",
-        "feed": "bing-news",
-        "message": "fetch failed"
-      },
-      {
-        "query": "Tamil Nadu 2026 CNN-News18 survey",
-        "feed": "google-news",
-        "message": "fetch failed"
-      },
-      {
-        "query": "Tamil Nadu 2026 CNN-News18 survey",
-        "feed": "bing-news",
-        "message": "fetch failed"
-      },
-      {
-        "query": "Tamil Nadu 2026 News18 Tamil Nadu survey",
-        "feed": "google-news",
-        "message": "fetch failed"
-      },
-      {
-        "query": "Tamil Nadu 2026 News18 Tamil Nadu survey",
-        "feed": "bing-news",
-        "message": "fetch failed"
-      },
-      {
-        "query": "Tamil Nadu 2026 Loyola opinion poll",
-        "feed": "google-news",
-        "message": "fetch failed"
-      },
-      {
-        "query": "Tamil Nadu 2026 Loyola opinion poll",
-        "feed": "bing-news",
-        "message": "fetch failed"
-      },
-      {
-        "query": "Tamil Nadu 2026 IPDS survey",
-        "feed": "google-news",
-        "message": "fetch failed"
-      },
-      {
-        "query": "Tamil Nadu 2026 IPDS survey",
-        "feed": "bing-news",
-        "message": "fetch failed"
-      },
-      {
-        "query": "Tamil Nadu 2026 opinion poll local channel",
-        "feed": "google-news",
-        "message": "fetch failed"
-      },
-      {
-        "query": "Tamil Nadu 2026 opinion poll local channel",
-        "feed": "bing-news",
-        "message": "fetch failed"
-      },
-      {
-        "query": "Tamil Nadu 2026 Thanthi TV survey",
-        "feed": "google-news",
-        "message": "fetch failed"
-      },
-      {
-        "query": "Tamil Nadu 2026 Thanthi TV survey",
-        "feed": "bing-news",
-        "message": "fetch failed"
-      },
-      {
-        "query": "Tamil Nadu 2026 News7 Tamil survey",
-        "feed": "google-news",
-        "message": "fetch failed"
-      },
-      {
-        "query": "Tamil Nadu 2026 News7 Tamil survey",
-        "feed": "bing-news",
-        "message": "fetch failed"
-      },
-      {
-        "query": "Tamil Nadu 2026 Puthiya Thalaimurai survey",
-        "feed": "google-news",
-        "message": "fetch failed"
-      },
-      {
-        "query": "Tamil Nadu 2026 Puthiya Thalaimurai survey",
-        "feed": "bing-news",
-        "message": "fetch failed"
-      },
-      {
-        "query": "Tamil Nadu 2026 Polimer News survey",
-        "feed": "google-news",
-        "message": "fetch failed"
-      },
-      {
-        "query": "Tamil Nadu 2026 Polimer News survey",
-        "feed": "bing-news",
-        "message": "fetch failed"
-      },
-      {
-        "query": "Tamil Nadu 2026 Sathiyam TV survey",
-        "feed": "google-news",
-        "message": "fetch failed"
-      },
-      {
-        "query": "Tamil Nadu 2026 Sathiyam TV survey",
-        "feed": "bing-news",
-        "message": "fetch failed"
-      },
-      {
-        "query": "Tamil Nadu 2026 News18 Tamil Nadu survey",
-        "feed": "google-news",
-        "message": "fetch failed"
-      },
-      {
-        "query": "Tamil Nadu 2026 News18 Tamil Nadu survey",
-        "feed": "bing-news",
-        "message": "fetch failed"
-      },
-      {
-        "query": "Tamil Nadu 2026 Sun News survey",
-        "feed": "google-news",
-        "message": "fetch failed"
-      },
-      {
-        "query": "Tamil Nadu 2026 Sun News survey",
-        "feed": "bing-news",
-        "message": "fetch failed"
-      },
-      {
-        "query": "Tamil Nadu 2026 Raj News survey",
-        "feed": "google-news",
-        "message": "fetch failed"
-      },
-      {
-        "query": "Tamil Nadu 2026 Raj News survey",
-        "feed": "bing-news",
-        "message": "fetch failed"
-      },
-      {
-        "query": "Tamil Nadu 2026 IBC Tamil survey",
-        "feed": "google-news",
-        "message": "fetch failed"
-      },
-      {
-        "query": "Tamil Nadu 2026 IBC Tamil survey",
-        "feed": "bing-news",
-        "message": "fetch failed"
-      },
-      {
-        "query": "à®¤à®®à®¿à®´à¯à®¨à®¾à®Ÿà¯ 2026 à®•à®°à¯à®¤à¯à®¤à¯ à®•à®£à®¿à®ªà¯à®ªà¯",
-        "feed": "google-news",
-        "message": "fetch failed"
-      },
-      {
-        "query": "à®¤à®®à®¿à®´à¯à®¨à®¾à®Ÿà¯ 2026 à®•à®°à¯à®¤à¯à®¤à¯ à®•à®£à®¿à®ªà¯à®ªà¯",
-        "feed": "bing-news",
-        "message": "fetch failed"
-      },
-      {
-        "query": "à®¤à®®à®¿à®´à¯à®¨à®¾à®Ÿà¯ 2026 à®šà®°à¯à®µà¯‡ à®¤à¯‡à®°à¯à®¤à®²à¯",
-        "feed": "google-news",
-        "message": "fetch failed"
-      },
-      {
-        "query": "à®¤à®®à®¿à®´à¯à®¨à®¾à®Ÿà¯ 2026 à®šà®°à¯à®µà¯‡ à®¤à¯‡à®°à¯à®¤à®²à¯",
-        "feed": "bing-news",
-        "message": "fetch failed"
-      },
-      {
-        "query": "à®¤à®®à®¿à®´à¯à®¨à®¾à®Ÿà¯ 2026 à®²à®¯à¯‹à®²à®¾ à®•à®°à¯à®¤à¯à®¤à¯ à®•à®£à®¿à®ªà¯à®ªà¯",
-        "feed": "google-news",
-        "message": "fetch failed"
-      },
-      {
-        "query": "à®¤à®®à®¿à®´à¯à®¨à®¾à®Ÿà¯ 2026 à®²à®¯à¯‹à®²à®¾ à®•à®°à¯à®¤à¯à®¤à¯ à®•à®£à®¿à®ªà¯à®ªà¯",
-        "feed": "bing-news",
-        "message": "fetch failed"
-      },
-      {
-        "query": "à®¤à®®à®¿à®´à¯à®¨à®¾à®Ÿà¯ 2026 à®¨à®¿à®¯à¯‚à®¸à¯18 à®•à®°à¯à®¤à¯à®¤à¯ à®•à®£à®¿à®ªà¯à®ªà¯",
-        "feed": "google-news",
-        "message": "fetch failed"
-      },
-      {
-        "query": "à®¤à®®à®¿à®´à¯à®¨à®¾à®Ÿà¯ 2026 à®¨à®¿à®¯à¯‚à®¸à¯18 à®•à®°à¯à®¤à¯à®¤à¯ à®•à®£à®¿à®ªà¯à®ªà¯",
-        "feed": "bing-news",
-        "message": "fetch failed"
+        "link": "https://www.oneindia.com/chennai/tamil-nadu-opinion-poll-ans-projects-dmk-winning-in-180-seats-in-234-member-assembly-8035153.html",
+        "title": "Tamil Nadu Opinion Poll: ANS Projects DMK Winning In 180 Seats In 234-Member Assembly",
+        "message": "Request failed with status 403"
       }
     ]
   },
   "polls": [
+    {
+      "pollDate": "2026-03-23",
+      "publishedAt": "2026-03-23T08:10:00.000Z",
+      "updatedAt": "2026-03-24T06:52:42.658Z",
+      "pollster": "Vote Vibe",
+      "sourceName": "News18",
+      "sourceCategory": "national",
+      "sourceUrl": "https://www.news18.com/india/tamil-nadu-election-2026-opinion-poll-predicts-razor-thin-contest-between-dmk-and-aiadmk-led-alliance-9993169.html",
+      "sourceDomain": "news18.com",
+      "headline": "Tamil Nadu Election 2026: Opinion Poll Predicts Razor-Thin Contest Between DMK And AIADMK-Led Alliance",
+      "summary": "In the 2021 Assembly elections, the DMK-led alliance secured a decisive victory with 158 seats, paving the way for MK Stalin to take office as Chief Minister.",
+      "seatProjection": {
+        "dmk": null,
+        "bjpAlliance": null,
+        "tvk": null,
+        "aiadmk": null
+      },
+      "voteShare": {
+        "dmk": null,
+        "bjpAlliance": null,
+        "tvk": null,
+        "aiadmk": {
+          "value": 37.5,
+          "display": "37.5%"
+        }
+      },
+      "notes": "Auto-discovered from scheduled feed ingestion. Review alliance labels before republishing if a story only reports combined blocs.",
+      "validation": {
+        "ok": true,
+        "statusCode": 200,
+        "checkedAt": "2026-03-24T06:52:42.652Z",
+        "mode": "live"
+      },
+      "discovery": {
+        "method": "bing-news",
+        "query": "Tamil Nadu 2026 assembly election opinion poll",
+        "feedLink": "https://www.news18.com/india/tamil-nadu-election-2026-opinion-poll-predicts-razor-thin-contest-between-dmk-and-aiadmk-led-alliance-9993169.html"
+      },
+      "confidence": "auto",
+      "id": "vote-vibe-2026-03-23-news18-com-https-www-news18-com-india-tamil-nadu-election-2026-opinion-poll-predicts-razor-thin-contest-between-dmk-and-aiadmk-led-alliance-9993169-html",
+      "sortDate": "2026-03-23T08:10:00.000Z"
+    },
     {
       "pollDate": "2026-03-23",
       "publishedAt": "2026-03-23T05:25:00.000Z",
@@ -325,9 +143,51 @@
       "sortDate": "2026-03-23T05:25:00.000Z"
     },
     {
+      "pollDate": "2026-03-23",
+      "publishedAt": "2026-03-23T00:08:00.000Z",
+      "updatedAt": "2026-03-24T06:51:34.008Z",
+      "pollster": "News18",
+      "sourceName": "News18",
+      "sourceCategory": "national",
+      "sourceUrl": "https://www.news18.com/elections/tamil-nadu-polls-tvk-exit-left-pushback-manapparai-tussle-dmks-alliance-talks-turn-turbulent-ws-l-9992065.html",
+      "sourceDomain": "news18.com",
+      "headline": "TVK Exit, Left Pushback, Manapparai Tussle: DMK's Alliance Talks Turn Turbulent In Tamil Nadu Polls",
+      "summary": "The most prominent rupture came after T Velmuruganâ€™s Tamilaga Vazhvurimai Katchi (TVK) exited the alliance, citing neglect and dissatisfaction.",
+      "seatProjection": {
+        "dmk": {
+          "value": 133,
+          "display": "133"
+        },
+        "bjpAlliance": null,
+        "tvk": null,
+        "aiadmk": null
+      },
+      "voteShare": {
+        "dmk": null,
+        "bjpAlliance": null,
+        "tvk": null,
+        "aiadmk": null
+      },
+      "notes": "Auto-discovered from scheduled feed ingestion. Review alliance labels before republishing if a story only reports combined blocs.",
+      "validation": {
+        "ok": true,
+        "statusCode": 200,
+        "checkedAt": "2026-03-24T06:51:34.008Z",
+        "mode": "live"
+      },
+      "discovery": {
+        "method": "bing-news",
+        "query": "Tamil Nadu 2026 election survey DMK AIADMK TVK",
+        "feedLink": "https://www.news18.com/elections/tamil-nadu-polls-tvk-exit-left-pushback-manapparai-tussle-dmks-alliance-talks-turn-turbulent-ws-l-9992065.html"
+      },
+      "confidence": "auto",
+      "id": "news18-2026-03-23-news18-com-https-www-news18-com-elections-tamil-nadu-polls-tvk-exit-left-pushback-manapparai-tussle-dmks-alliance-talks-turn-turbulent-ws-l-9992065-html",
+      "sortDate": "2026-03-23T00:08:00.000Z"
+    },
+    {
       "pollDate": "2026-03-20",
       "publishedAt": "2026-03-20T02:36:00.000Z",
-      "updatedAt": "2026-03-23T13:12:29.820Z",
+      "updatedAt": "2026-03-24T06:52:48.115Z",
       "pollster": "IANS-Matrize",
       "sourceName": "Moneycontrol",
       "sourceCategory": "national",
@@ -357,12 +217,12 @@
       "validation": {
         "ok": true,
         "statusCode": 200,
-        "checkedAt": "2026-03-23T13:12:29.820Z",
+        "checkedAt": "2026-03-24T06:52:48.110Z",
         "mode": "live"
       },
       "discovery": {
         "method": "bing-news",
-        "query": "Tamil Nadu 2026 election survey DMK AIADMK TVK",
+        "query": "Tamil Nadu 2026 Loyola opinion poll",
         "feedLink": "https://www.moneycontrol.com/news/india/tamil-nadu-opinion-poll-suggests-aiadmk-edge-over-dmk-vijay-s-tvk-emerges-as-key-factor-13866012.html"
       },
       "confidence": "auto",
